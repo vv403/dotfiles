@@ -1,0 +1,16 @@
+[alias]
+	home = !git --git-dir="${HOME}/.dotfiles/" --work-tree="${HOME}/"
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = ~/.gitsigners
+[init]
+	defaultBranch = main
+[user]
+	email = 169216522+vv403@users.noreply.github.com
+	name = vv403
+	signingkey = ~/.ssh/id_ed25519.pub
+[includeIf "gitdir:~/.dotfiles/"]
+	path = ~/.dotfiles.gitconfig

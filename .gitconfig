@@ -1,5 +1,5 @@
 [alias]
-	home = !git --git-dir="${HOME}/.dotfiles/" --work-tree="${HOME}/"
+	home = !git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME
 [commit]
 	gpgsign = true
 [gpg]

@@ -16,3 +16,9 @@ export XDG_STATE_HOME="${HOME}/.local/state"
 # Git
 export GIT_EDITOR="$EDITOR"
 export GIT_PAGER="$PAGER"
+
+# History
+export HISTCONTROL=ignoreboth:erasedups
+export HISTFILE="${XDG_STATE_HOME}/bash/history"
+export HISTFILESIZE=10000
+export HISTSIZE="$HISTFILESIZE"

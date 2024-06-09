@@ -1,1 +1,10 @@
 # shellcheck shell=bash
+
+alias cp='cp -i'
+alias greph='history | grep'
+alias ll='ls -l'
+alias lh='ll -h'
+alias la='ll -a'
+alias lr='ll -r'
+alias mv='mv -i'
+alias rm='rm -i'

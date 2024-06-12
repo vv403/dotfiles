@@ -1,5 +1,6 @@
 # shellcheck shell=bash
 
+alias comment='sed -i "/^[^#]/ s/.*/# &/"'
 alias cp='cp -i'
 alias greph='history | grep'
 alias ll='ls -l'

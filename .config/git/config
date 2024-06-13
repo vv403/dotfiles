@@ -1,5 +1,6 @@
 [alias]
 	home = !git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME
+	summary = !onefetch --no-art
 [commit]
 	gpgsign = true
 [gpg]

@@ -5,7 +5,7 @@
 export DO_NOT_TRACK=1
 export EDITOR=vim
 export PAGER=less
-export PATH="${HOME}/.local/bin:${PREFIX}/bin/"
+export PATH="${HOME}/bin:${HOME}/.local/bin:${PREFIX}/bin/"
 
 # XDG User Directories
 export XDG_CONFIG_HOME="${HOME}/.config"
